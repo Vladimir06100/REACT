@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Stock - Café de la Place</title>
+
+        <!-- Imports de style -->
+        <link
+            href="https://fonts.googleapis.com/icon?family=Material+Icons"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" type="text/css" href="assets/styles/style.css" />
+    </head>
+
+    <body>
+        <!-- Conteneur principal -->
+        <div id="mainContainer">
+            <!-- Barre de navigation -->
+            <nav id="mainNav">
+                <!-- Titre principal -->
+                <h1 class="main-title">Le Café de la Place</h1>
+
+                <!-- Menu -->
+                <ul class="menu">
+                    <li class="menu-item">
+                        <a href="index.html">Voir le stock</a>
+                    </li>
+                    <li class="menu-item shop-button">
+                        <a href="add-product.html">
+                            <span class="material-icons"> add </span>
+                            Créer un produit
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Contenu principal -->
+            <main class="main-content">
+                <!-- En-tête -->
+                <h2 class="heading">
+                    <span class="material-icons"> liquor </span>
+                    Gestion du stock
+                </h2>
+
+                <!-- Contenu -->
+                <div class="content">
+                    <!-- Stock -->
+                    <table class="stock-table">
+                        <thead>
+                            <th>Produit</th>
+                            <th>Stock</th>
+                            <th>Type</th>
+                            <th>Prix d'achat HT</th>
+                            <th>Prix de vente HT (TTC)</th>
+                            <th>Marge</th>
+                            <th>Actions</th>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </main>
+        </div>
+
+        <!-- Scripts -->
+        <script type="text/javascript" src="assets/scripts/main.js"></script>
+        <script type="text/javascript" src="assets/scripts/stock.js"></script>
+    </body>
+</html>

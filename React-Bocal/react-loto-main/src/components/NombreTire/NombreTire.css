@@ -1,0 +1,10 @@
+.nombre_tire{
+    background: blue;
+    border-radius: 50%;
+    color: white;
+    margin: 20px;
+    width: 50px;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+}

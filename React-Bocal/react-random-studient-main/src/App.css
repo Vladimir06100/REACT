@@ -1,0 +1,31 @@
+.App .active_student_p{
+    text-align: center;
+}
+
+.App .active_student{
+    background: red;
+    color: white;
+    padding: 10px;
+}
+
+.App .buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.App button{
+    border-radius: 30px;
+    margin: 10px 40px;
+    padding: 10px 0;
+    width: 200px;
+    background: blue;
+    color: white;
+}
+
+.student{
+    border: 1px solid black;
+    cursor: pointer;
+    display: inline-block;
+    padding: 2rem;
+    margin: 2rem;
+}

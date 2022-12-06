@@ -1,0 +1,260 @@
+
+/**
+ * Style général
+ */
+
+/* Roboto font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    margin: 0px;
+}
+
+/* Main container */
+#mainContainer {
+    font-family: "Roboto", sans-serif;
+    background-color: #d1d1d1;
+    min-height: 100vh;
+    padding: 100px 10vw 0px 10vw;
+}
+
+@media screen and (max-width: 992px) {
+    #mainContainer {
+        padding: 100px 0px 0px 0px;
+    }
+}
+
+/* Champs de saisie */
+#mainContainer input,
+#mainContainer select,
+#mainContainer button {
+    outline: none;
+}
+
+/* Message */
+#mainContainer .message {
+    text-align: center;
+}
+
+#mainContainer .message.error {
+    color: red;
+}
+
+#mainContainer .message.success {
+    color: green;
+}
+
+
+/**
+ * Barre de navigation
+ */
+
+/* Barre de navigation */
+#mainContainer #mainNav {
+    height: 70px;
+    background-color: #2b2b2b;
+    border-bottom: 5px solid #ca7e1a;
+    box-shadow: 0px 4px 4px rgb(41, 41, 41);
+    display: flex;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+/* Titre principal */
+#mainContainer #mainNav .main-title {
+    height: 70px;
+    line-height: 70px;
+    margin: 0px 40px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 0.28rem;
+}
+
+/* Menu */
+#mainContainer #mainNav .menu {
+    display: flex;
+    margin: 0px 40px;
+    height: 70px;
+    align-items: stretch;
+    flex-grow: 1;
+    padding: 0px;
+    justify-content: flex-end;
+}
+
+/* Liens du menu */
+#mainContainer #mainNav .menu .menu-item {
+    list-style: none;
+    margin: 0px 30px;
+}
+
+#mainContainer #mainNav .menu .menu-item a {
+    color: #777777;
+    font-size: 1rem;
+    text-decoration: none;
+    line-height: 70px;
+    height: 70px;
+    display: inline-block;
+    padding: 0px 30px;
+    transition: color linear 0.2s;
+}
+
+#mainContainer #mainNav .menu .menu-item a:hover {
+    background-color: #3b3b3b;
+    color: #ca7e1a;
+    transition: color linear 0.2s;
+}
+
+#mainContainer #mainNav .menu .menu-item.shop-button {
+    display: flex;
+    align-items: center;
+}
+
+#mainContainer #mainNav .menu .menu-item.shop-button a {
+    color: #ca7e1a;
+    display: flex;
+    align-items: center;
+    border: 2px solid #ca7e1a;
+    border-radius: 7px;
+    padding: 5px 10px;
+    transition: background-color linear 0.2s, color linear 0.2s;
+    height: auto;
+    line-height: unset;
+}
+
+#mainContainer #mainNav .menu .menu-item.shop-button:hover a {
+    color: #2b2b2b;
+    background-color: #ca7e1a;
+    transition: background-color linear 0.2s, color linear 0.2s;
+}
+
+#mainContainer #mainNav .menu .menu-item.shop-button a .material-icons {
+    font-size: 1rem;
+    padding-right: 5px;
+}
+
+/**
+ * Contenu principal
+ */
+
+/* Contenu principal */
+#mainContainer .main-content {
+    background-color: white;
+    box-shadow: 5px 4px 8px #525252;
+    min-height: 80vh;
+}
+
+/* En-tête */
+#mainContainer .main-content .heading {
+    margin: 0px 0px 20px 0px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    font-weight: normal;
+    background-color: #2b2b2b;
+    color: white;
+    border-bottom: 5px solid #ca7e1a;
+}
+
+#mainContainer .main-content .heading .material-icons {
+    padding-right: 20px;
+    color: #ca7e1a;
+}
+
+/* Contenu */
+#mainContainer .main-content .content {
+    margin: 0px 20px;
+}
+
+/* Stock */
+#mainContainer .main-content .content .stock-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#mainContainer .main-content .content .stock-table tbody tr:nth-child(odd) {
+    background-color: #dadada;
+}
+
+#mainContainer .main-content .content .stock-table tbody td {
+    padding: 10px;
+    text-align: center;
+    font-weight: 300;
+}
+
+#mainContainer .main-content .content .stock-table tbody td .stock-input {
+    width: 50px;
+    border: 0px;
+    font-weight: bold;
+    background-color: green;
+    color: white;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+#mainContainer .main-content .content .stock-table tbody td .stock-input.low {
+    background-color: red;
+}
+
+#mainContainer .main-content .content .stock-table tbody td .stock-action {
+    border: 0px;
+    background-color: transparent;
+    transition: color linear 0.2s;
+}
+
+#mainContainer .main-content .content .stock-table tbody td .stock-action:hover {
+    cursor: pointer;
+    color: #ca7e1a;
+    transition: color linear 0.2s;
+}
+
+/* Ajout de produit */
+#mainContainer .main-content .content .product-form .input-row {
+    margin: 20px 30px;
+    display: flex;
+}
+
+#mainContainer .main-content .content .product-form .input-row .input-group {
+    margin: 0px 10px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+#mainContainer .main-content .content .product-form .input-row .input-group label {
+    color: #797979;
+    font-size: 1rem;
+}
+
+#mainContainer .main-content .content .product-form .input-row .input-group input,
+#mainContainer .main-content .content .product-form .input-row .input-group select {
+    border: 1px solid #868686;
+    border-radius: 7px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    margin-top: 5px;
+}
+
+#mainContainer .main-content .content .product-form .validate-button {
+    color: #ca7e1a;
+    border: 2px solid #ca7e1a;
+    border-radius: 7px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    transition: background-color linear 0.2s, color linear 0.2s;
+    width: 200px;
+    margin: auto;
+    display: block;
+    background-color: transparent;
+    margin-top: 40px;
+}
+
+#mainContainer .main-content .content .product-form .validate-button:hover {
+    background-color: #ca7e1a;
+    color: white;
+    transition: background-color linear 0.2s, color linear 0.2s;
+    cursor: pointer;
+}

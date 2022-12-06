@@ -1,0 +1,10 @@
+.game_component{
+    border: 1px solid white;
+    display: inline-block;
+    padding: 30px;
+    margin: 30px;
+}
+
+.game_component button{
+    margin: 20px 0;
+}

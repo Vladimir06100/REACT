@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Stock - Café de la Place</title>
+
+        <!-- Imports de style -->
+        <link
+            href="https://fonts.googleapis.com/icon?family=Material+Icons"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" type="text/css" href="assets/styles/style.css" />
+    </head>
+
+    <body>
+        <!-- Conteneur principal -->
+        <div id="mainContainer">
+            <!-- Barre de navigation -->
+            <nav id="mainNav">
+                <!-- Titre principal -->
+                <h1 class="main-title">Le Café de la Place</h1>
+
+                <!-- Menu -->
+                <ul class="menu">
+                    <li class="menu-item">
+                        <a href="index.html">Voir le stock</a>
+                    </li>
+                    <li class="menu-item shop-button">
+                        <a href="add-product.html">
+                            <span class="material-icons"> add </span>
+                            Créer un produit
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Contenu principal -->
+            <main class="main-content">
+                <!-- En-tête -->
+                <h2 class="heading">
+                    <span class="material-icons"> edit </span>
+                    Editer un produit
+                </h2>
+
+                <!-- Contenu -->
+                <div class="content">
+                    <!-- Edition de produit -->
+                    <form id="editProductForm" class="product-form">
+                        <!-- Nom et type-->
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label for="name">Nom du produit</label>
+                                <input
+                                    type="text"
+                                    name="name"
+                                    placeholder="Nom du produit"
+                                    id="name"
+                                    required
+                                />
+                            </div>
+
+                            <div class="input-group">
+                                <label for="type">Type</label>
+                                <select name="type" id="type" required>
+                                    <option value="Boisson Alcoolisée">
+                                        Boisson Alcoolisée
+                                    </option>
+                                    <option value="Boisson Non-alcoolisée">
+                                        Boisson Non-alcoolisée
+                                    </option>
+                                    <option value="Autre">Autre</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <!-- Prix -->
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label for="buyingPrice">Prix d'achat HT</label>
+                                <input
+                                    type="number"
+                                    step="0.01"
+                                    min="0"
+                                    name="buyingPrice"
+                                    id="buyingPrice"
+                                    placeholder="Prix d'achat HT"
+                                    required
+                                />
+                            </div>
+
+                            <div class="input-group">
+                                <label for="sellingPrice">
+                                    Prix de vente HT
+                                </label>
+                                <input
+                                    type="number"
+                                    type="number"
+                                    step="0.01"
+                                    min="0"
+                                    name="sellingPrice"
+                                    id="sellingPrice"
+                                    placeholder="Prix de vente HT"
+                                    required
+                                />
+                            </div>
+
+                            <div class="input-group">
+                                <label for="vat">TVA</label>
+                                <select name="vat" id="vat" required>
+                                    <option value="20">20%</option>
+                                    <option value="10">10%</option>
+                                    <option value="5.5">5.5%</option>
+                                    <option value="0">0%</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <!-- Stock et degré d'alcool -->
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label for="stock">Stock</label>
+                                <input
+                                    type="number"
+                                    name="stock"
+                                    id="stock"
+                                    step="1"
+                                    min="0"
+                                    placeholder="Stock"
+                                    required
+                                />
+                            </div>
+
+                            <div class="input-group">
+                                <label for="abv">Degré d'alcool</label>
+                                <input
+                                    type="number"
+                                    name="abv"
+                                    id="abv"
+                                    step="0.1"
+                                    min="0"
+                                    placeholder="Degré d'alcool"
+                                />
+                            </div>
+                        </div>
+
+                        <button class="validate-button">Valider</button>
+                    </form>
+
+                    <!-- Message -->
+                    <p id="addProductMessage" class="message"></p>
+                </div>
+            </main>
+        </div>
+
+        <!-- Scripts -->
+        <script type="text/javascript" src="assets/scripts/main.js"></script>
+        <script
+            type="text/javascript"
+            src="assets/scripts/edit-product.js"
+        ></script>
+    </body>
+</html>
