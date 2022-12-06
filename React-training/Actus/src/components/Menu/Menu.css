@@ -1,0 +1,19 @@
+nav{
+    border-bottom: 1px solid black;
+    width: 100vw;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    font-size: 20px;
+    margin: 0 10px;
+}

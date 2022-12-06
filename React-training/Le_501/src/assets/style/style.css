@@ -1,0 +1,168 @@
+/* General style */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+#mainContainer {
+  background-color: #323232;
+  padding: 5vh 10vw;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+/* Header */
+
+#mainContainer header {
+  text-align: center;
+}
+
+#mainContainer header .main-title {
+  color: #ececec;
+  font-weight: bold;
+  border-top: 5px solid #e4c123;
+  display: inline;
+  margin: 1rem;
+  padding: 1rem;
+  font-size: 3rem;
+}
+
+#mainContainer header .tagline {
+  color: white;
+  font-size: 1.5rem;
+  letter-spacing: 0.5rem;
+}
+
+/* Players */
+#mainContainer .players-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+
+#mainContainer .players-container .score-counter {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #222222;
+  margin: 5vh 5vw;
+  border-radius: 5px;
+  color: white;
+}
+
+#mainContainer .players-container .score-counter .player-informations {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#mainContainer
+  .players-container
+  .score-counter
+  .player-informations
+  .player-name {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 0.5rem;
+}
+
+#mainContainer
+  .players-container
+  .score-counter
+  .player-informations
+  .player-name
+  .tag-prefix {
+  color: #e4c123;
+  font-size: 2rem;
+  vertical-align: middle;
+}
+
+#mainContainer .players-container .score-counter .player-informations .score {
+  font-size: 1.4rem;
+  margin: 0 0 0.5rem 0;
+}
+
+#mainContainer .players-container .score-counter .actions {
+  margin: 0 1rem 0.5rem 1rem;
+}
+
+#mainContainer .players-container .score-counter .actions .subtitle {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+#mainContainer .players-container .score-counter .actions .input-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#mainContainer
+  .players-container
+  .score-counter
+  .actions
+  .input-container
+  select,
+#mainContainer
+  .players-container
+  .score-counter
+  .actions
+  .input-container
+  input {
+  font-size: 1rem;
+  color: white;
+  background-color: transparent;
+  outline: 0;
+  border: 0px;
+  margin: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #e4c123;
+  flex-grow: 1;
+}
+
+#mainContainer
+  .players-container
+  .score-counter
+  .actions
+  .input-container
+  select:hover {
+  cursor: pointer;
+}
+
+#mainContainer
+  .players-container
+  .score-counter
+  .actions
+  .input-container
+  label {
+  font-size: 1.2rem;
+}
+
+#mainContainer .players-container .score-counter .actions .submit-button {
+  color: #e4c123;
+  font-size: 1rem;
+  font-weight: bold;
+  border: 2px solid #e4c123;
+  margin: 0.5rem auto 1rem auto;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  background-color: transparent;
+  display: block;
+  transition: 0.2s linear background-color, 0.2s linear color;
+}
+
+#mainContainer .players-container .score-counter .actions .submit-button:hover {
+  cursor: pointer;
+  background-color: #e4c123;
+  color: white;
+  transition: 0.2s linear background-color, 0.2s linear color;
+}

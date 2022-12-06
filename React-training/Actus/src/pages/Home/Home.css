@@ -1,0 +1,9 @@
+#home{
+    flex: 1;
+}
+
+#home ul{
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
