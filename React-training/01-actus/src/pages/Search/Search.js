@@ -13,7 +13,7 @@ function Search() {
 	// Création d'une variable d'état qui contient la liste des articles
 	const [articles, setArticles] = useState([]);
 
-	// Je créer une variable d'état userSearch, qui est égale à "" initialement
+	// Je crée une variable d'état userSearch, qui est égale à "" initialement
 	// et la variable setUserSearch qui est une fonction pour mettre à jour userSearch
 	const [userSearch, setUserSearch] = useState("");
 
@@ -30,34 +30,34 @@ function Search() {
 			);
 			// +GV-6j@R&ds8DgG
 
-			// La fonction json de response est asynchrone, j'attend qu'elle se termine pour récupérer les données (avec await)
-			// transformation tout les element en objet a utilise
+			// La fonction json de response est asynchrone, j'attends qu'elle se termine pour récupérer les données (avec await)
+			// transformation tout les element en objet a utilisé
 			let responseData = await response.json();
+			responseData.articles = undefined;
 
 			const articles = responseData.articles;
 
-			setArticles(articles); // Je met à jour ma variable d'état articles en appelant sa fonction de mise à jour
+			setArticles(articles); // Je mets à jour ma variable d'état articles en appelant sa fonction de mise à jour
 		}
 	}
 
 	/**
 	 * Se déclenche quand l'utilisateur modifie l'input search
-	 * @param {Object}
 	 */
 	const handleSearchChange = (e) => {
 		const inputValue = e.target.value; // Je récupère la valeur de l'input
-		setUserSearch(inputValue); // Je met à jour la variable d'état userSearch
+		setUserSearch(inputValue); // Je mets à jour la variable d'état userSearch
 	};
 
 	// useEffect est une fonction qui se lance au moment de la création du composant et à chaque mise à jour
 	// Le premier paramètre est la fonction qui se lancera
-	// Le deuxième paramètre est une liste des dépendances. Ca veut dire que quand une variable de ce tableau est modifié, on relance la fonction
+	// Le deuxième paramètre est une liste des dépendances. Ça veut dire que quand une variable de ce tableau est modifié, on relance la fonction
 	useEffect(() => {
 		console.log("Je suis dans useEffect");
 
 		// Je récupère les articles, c'est une fonction asynchrone
 		// Pour ne pas bloquer le code, je n'utilise pas await
-		getArticles();
+		getArticles().then(r =>{});
 	}, [getArticles, userSearch]);
 
 	return (

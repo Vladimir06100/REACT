@@ -13,9 +13,8 @@ function App() {
     const TVA = document.querySelector('#TVA').value;
     // calcul TTC
     const calcTTC = prixHT * (1 + TVA / 100);
-    const TTC = calcTTC.toFixed(2);
     // display TTC
-    document.querySelector('#TTC').value = TTC;
+    document.querySelector('#TTC').value = calcTTC.toFixed(2);
   }
 
   return (
@@ -29,7 +28,7 @@ function App() {
         </div>
 
         {/* select news values TVA with 4button value of 0% 5.5% 10% 20%  */}
-      {/*  if i select one value input ttc mise a jour automatique */}
+      {/*  if i select one value input ttc mise à jour automatique */}
       
         <div className="form-group">
           <label htmlFor="TVA">TVA</label>
@@ -42,7 +41,7 @@ function App() {
         </div>
 
         {/*  mise a jour de ETAT input TCC with new value */}
-        {/*  if i select one value input ttc mise a jour automatique */}
+        {/*  if i select one value input ttc mise à jour automatique */}
 
         <div className="form-group">
           <label htmlFor="TTC">TTC</label>
