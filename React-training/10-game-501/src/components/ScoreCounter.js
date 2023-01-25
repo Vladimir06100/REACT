@@ -16,6 +16,7 @@ function scoreReducer(state, action) {
   // Calcul du score en fonction de la zone atteinte
   // | On retourne ici la nouvelle valeur de la variable
   // | d'état.
+  action.zone = undefined;
   switch (action.zone) {
     case "bull's eye":
       return state + 50;
@@ -39,14 +40,15 @@ function ScoreCounter({ playerName }) {
   // | permet de spécifier une fonction "personnalisée"
   // | pour le traitement des mises à jour de cette variable
   // | d'état.
-  const [score, updateScore] = useReducer(scoreReducer,0);
+  const [score, updateScore] = useReducer(scoreReducer,0,0);
 
   // Variables d'état zone et points
   // | Ces variables d'état contiennent respectivement la zone
   // | et le nombre de points réalisés par le joueur lors de son
   // | lancé actuel. Ils devront être réinitialisés après avoir
   // | été comptabilisés dans le score.
-  const [zone, setZone] = useState("simple");
+  let zone, setZone;
+  [zone, setZone] = useState("simple");
   const [points, setPoints] = useState(0);
 
   // Fonction submitThrow
@@ -55,7 +57,7 @@ function ScoreCounter({ playerName }) {
   function submitThrow() {
     // On appelle la fonction de mise à jour updateScore en lui passant un
     // objet que l'on retrouvera dans le paramètre action côté reducer
-    updateScore({ zone: zone, points: Number(points) });
+    updateScore();
 
     // On réinitialise la variable d'état zone pour le prochain lancer
     setZone("simple");
