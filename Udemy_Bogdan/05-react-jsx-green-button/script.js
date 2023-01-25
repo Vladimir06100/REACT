@@ -1,3 +1,6 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+
 const App = ({initialButtonText, initialButtonClass}) => {
   // const App = (props) => {
  // console.log(props)

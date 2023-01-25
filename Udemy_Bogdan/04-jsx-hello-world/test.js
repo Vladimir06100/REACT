@@ -1,3 +1,4 @@
+import React from "react";
 
 function HelloReact() {
   return (/*#__PURE__*/React.createElement("h1", null, "Hello React")
