@@ -11,12 +11,12 @@ import Post from './Post';
 function App() {
   // Création de la variable d'état
   // useState est un hook de react, il doit donc être utilisé dans un composant
-  // On créer une variable d'état, elle doit appartenir à un composant.
+  // On crée une variable d'état, elle doit appartenir à un composant.
   const [list, setList] = useState([{title: "My rocket", content : "Look, I built a new rocket", author: "Elon Mask", likes: 0}])
 
   /**
    * Ajout d'un like
-   * @param {Number} index : l'index dans le tableau list, pour pouvoir modifier le bon objet dans mon tableau list
+   * @param {Number} index : l'index dans le tableau list, pour pouvoir modifier le bon objet dans mon tableau list.
    * Je donne un index pour savoir quel élément je dois modifier
    */
   function addLike(index) {
@@ -26,7 +26,7 @@ function App() {
 
   /**
    * Ajoute 100 likes
-   * @param {Number} index : l'index dans le tableau list, pour pouvoir modifier le bon objet dans mon tableau list
+   * @param {Number} index : l'index dans le tableau list, pour pouvoir modifier le bon objet dans mon tableau list.
    * Je donne un index pour savoir quel élément je dois modifier
    */
   function addSuperLike(index) {
@@ -36,7 +36,7 @@ function App() {
 
   /**
    * Remet les likes à 0
-   * @param {Number} index : l'index dans le tableau list, pour pouvoir modifier le bon objet dans mon tableau list
+   * @param {Number} index : l'index dans le tableau list, pour pouvoir modifier le bon objet dans mon tableau list.
    * Je donne un index pour savoir quel élément je dois modifier
    */
   function supLike(index){

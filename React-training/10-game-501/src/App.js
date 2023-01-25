@@ -12,8 +12,8 @@ function App() {
   return (
     <div id="mainContainer">
       <header>
-        <h1 class="main-title">🎯 Le 501</h1>
-        <p class="tagline">Le jeu de fléchettes</p>
+        <h1 className="main-title">🎯 Le 501</h1>
+        <p className="tagline">Le jeu de fléchettes</p>
       </header>
 
       <section className="players-container">

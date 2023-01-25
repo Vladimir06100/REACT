@@ -7,7 +7,7 @@ function App() {
 	const [historiqueTirage, setHistoriqueTirage] = useState([]);
 
 	const handleClick = () => {
-		// Je choisi un nombre entre 1 et 90
+		// J'ai choisi un nombre entre 1 et 90
 		let number = Math.floor(Math.random() * 90);
 
 		// Si le nombre est déjà dans le tableau historiqueTirage, on retire un nouveau nombre

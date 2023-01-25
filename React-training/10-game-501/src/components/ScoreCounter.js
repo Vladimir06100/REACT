@@ -14,14 +14,14 @@ import { useReducer, useState } from "react";
  */
 function scoreReducer(state, action) {
   // Calcul du score en fonction de la zone atteinte
-  // |  On retourne ici la nouvelle valeur de la variable
-  // |  d'état.
+  // | On retourne ici la nouvelle valeur de la variable
+  // | d'état.
   switch (action.zone) {
     case "bull's eye":
       return state + 50;
     case "anneau central":
       return state + 25;
-    case "anneau interieur":
+    case "anneau integer":
       return state + action.points * 3;
     case "anneau exterieur":
       return state + action.points * 2;
@@ -35,23 +35,23 @@ function scoreReducer(state, action) {
  */
 function ScoreCounter({ playerName }) {
   // Variable d'état score et sa fonction de mise à jour
-  // |  |  On les crée ici avec le hook useReducer qui nous
-  // |  permet de spécifier une fonction "personnalisée"
-  // |  pour le traitement des mises à jours de cette variable
-  // |  d'état.
-  const [score, updateScore] = useReducer(scoreReducer, 0);
+  // | | On les crée ici avec le hook useReducer qui nous
+  // | permet de spécifier une fonction "personnalisée"
+  // | pour le traitement des mises à jour de cette variable
+  // | d'état.
+  const [score, updateScore] = useReducer(scoreReducer,0);
 
   // Variables d'état zone et points
-  // |  Ces variables d'état contiennent respectivement la zone
-  // |  et le nombre de points réalisés par le joueur lors de son
-  // |  lancé actuel. Ils devront être réinitialisés après avoir
-  // |  été comptabilisés dans le score.
+  // | Ces variables d'état contiennent respectivement la zone
+  // | et le nombre de points réalisés par le joueur lors de son
+  // | lancé actuel. Ils devront être réinitialisés après avoir
+  // | été comptabilisés dans le score.
   const [zone, setZone] = useState("simple");
   const [points, setPoints] = useState(0);
 
   // Fonction submitThrow
-  // |  Cette fonction permet d'appeler la fonction de mises à jour
-  // |  du score en lui passant les informations du lancer.
+  // | Cette fonction permet d'appeler la fonction de mises à jour
+  // | du score en lui passant les informations du lancer.
   function submitThrow() {
     // On appelle la fonction de mise à jour updateScore en lui passant un
     // objet que l'on retrouvera dans le paramètre action côté reducer
@@ -60,7 +60,7 @@ function ScoreCounter({ playerName }) {
     // On réinitialise la variable d'état zone pour le prochain lancer
     setZone("simple");
 
-    // On réinitialise la variable d'état points pour le prochain lancer
+    // On réinitialise la variable d'état point pour le prochain lancer
     setPoints(0);
   }
 
@@ -79,7 +79,7 @@ function ScoreCounter({ playerName }) {
 
       {/* Enregistrement des points du lancé */}
       <div className="actions">
-        <h3 class="subtitle">Ajouter des points:</h3>
+        <h3 className="subtitle">Ajouter des points:</h3>
 
         <div className="input-container">
           <label>Zone :</label>
