@@ -18,3 +18,5 @@ const App = ({ initialButtonText, initialButtonClass }) => {
 const container = document.getElementById('app');
 const root = ReactDOM.createRoot(container);
 root.render(<App initialButtonText="click ME please" initialButtonClass="" />);
+
+//Parsing error: The keyword 'const' is reserved;
