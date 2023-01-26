@@ -8,18 +8,19 @@
 	</head>
 
 	<body>
-		<div id="app"></div>
-		<div id="app1"></div>
-		<script
-			src="https://unpkg.com/react@18/umd/react.development.js"
-			crossorigin></script>
-		<script
-			src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
-			crossorigin></script>
-		<script>
-			import React from "react";
-			import ReactDOM from "react-dom/client";
+  <div id="app">
 
+  </div>
+  <div id="app1"></div>
+  <script
+          src="https://unpkg.com/react@18/umd/react.development.js"
+          crossorigin></script>
+  <script
+          src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+          crossorigin></script>
+  <script>
+			// import React from "react";
+			// import ReactDOM from "react-dom/client";
 			const helloWorldHeading = React.createElement(
 				'h1',
 				null,
@@ -27,7 +28,7 @@
 			);
 			const container = document.getElementById('app');
 			const root = ReactDOM.createRoot(container);
-			root.render(helloWorldHeading);
+      root.render(helloWorldHeading);
 
 			// const Hello = React.createElement('h2', null, 'Salut all');
 			// const container1 = document.getElementById('app1');

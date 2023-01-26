@@ -1,22 +1,35 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+      .app{
+          background-color: #3b3b3b;
+      }
+      .greenBtn{
+          color: red;
+          font-size: 12px;
+      }
+  </style>
 </head>
 <body>
-<button id="myButton" onclick="changeButtonText('myButton')">Click me</button>
+<div class="app">
+  <button id="myButton" onclick="changeButton('myButton')">Click me</button>
+</div>
 <div>
-    <button type="reset">reset</button>
+  <button type="reset">reset</button>
 </div>
 <script>
-function changeButtonText(id){
-    const myButton = document.getElementById(id);
-    myButton.innerHTML="Hello world";
-}
+    function changeButton(id){
+        const myButton = document.getElementById(id);
+        myButton.innerHTML="Hello world";
+        myButton.className='greenBtn'
+    }
+
 </script>
 </body>
 </html>

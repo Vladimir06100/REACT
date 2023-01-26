@@ -6,10 +6,9 @@ import Footer from "./Footer";
 function App() {
 	return (
 		<div className="App">
-			<aside>sasfasf</aside>
+			<aside>salut</aside>
 			<header className="App-header">
 				<Menu />
-
 				<ContenuPrincipale />
 				<Footer />
 			</header>
