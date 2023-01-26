@@ -1,20 +1,10 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-
-const App = ({initialButtonText, initialButtonClass}) => {
-  // const App = (props) => {
- // console.log(props)
-  // const { initialButtonText } = props
-  // console.log('called');
-  let [buttonText, setButtonText] = React.useState(initialButtonText);
+const App = ({ initialButtonText, initialButtonClass }) => {
+  const [buttonText, setButtonText] = React.useState(initialButtonText);
   let [classesList, setClassesList] = React.useState(initialButtonClass);
-
-
-
   const onButtonClick = () => {
-    setButtonText('Hello from React')
-    setClassesList('green-btn')
-  }
+    setButtonText('Hello from React');
+    setClassesList('green-btn');
+  };
   //setButtonText(`Hello from React, ${Math.random}`  )
   return (
     <div className="app">
@@ -23,8 +13,8 @@ const App = ({initialButtonText, initialButtonClass}) => {
       </button>
     </div>
   );
-}
+};
 //	const helloWorldHeading = /*#__PURE__*/React.createElement("h1", null, "Hello from react");
 const container = document.getElementById('app');
 const root = ReactDOM.createRoot(container);
-root.render(<App initialButtonText="click ME" initialButtonClass="" />);
+root.render(<App initialButtonText="click ME please" initialButtonClass="" />);
