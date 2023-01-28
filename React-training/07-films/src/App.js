@@ -14,7 +14,7 @@ const FilmArray = [
 	{
 		video:
 			"/Users/vladimirsinkevitch/Desktop/React/filme-a-la-affiche/src/IMG_7604.MP4",
-		title: "Games of Trone",
+		title: "Games of Throne",
 		resume: "Cool",
 		date: "04/10/2022",
 		heure: "19h00, 21h30, 23h00",

@@ -2,12 +2,9 @@ import './App.css';
 import { useState } from 'react';
 import Search from './components/Search/Search';
 import History from './components/History/History';
-
 function App() {
-
   // Création de la variable d'état history
   const [history, setHistory] = useState([{firstName: "bella", age: 42}]);
-
   /**
    * Ajout d'une valeur dans l'historique
    * @param {Object} newValue
@@ -18,7 +15,6 @@ function App() {
     history.push(newValue);
     setHistory([...history]);
   }
-
   return (
     <div className="App">
       <Search addHistory={addHistory} />
@@ -26,5 +22,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
