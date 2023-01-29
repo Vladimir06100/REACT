@@ -7,5 +7,4 @@ function Titre(){
     )
 
 }
-
 export default Titre;
