@@ -3,13 +3,7 @@ import './App.css';
 import Button from './components/Button';
 import Counter from './components/Counter';
 
-const texts = [
-  'Click me',
-  'Click me please',
-  'Click me',
-  'press me'
-
-];
+const texts = ['Click me', 'Click me please', 'Click me', 'Press me'];
 
 function App() {
   console.log('App rendered');
@@ -19,10 +13,22 @@ function App() {
   return (
     <div className="App">
       <Counter count={count} />
-      <Button onClick={incrementCount} text={texts[0]} />
-      <Button onClick={incrementCount} text="Click me please" />
-      <Button onClick={incrementCount} text="Click me" />
-      <Button onClick={incrementCount} text="press me" />
+      <Button
+        onClick={incrementCount}
+        text={texts[0]}
+      />
+      <Button
+        onClick={incrementCount}
+        text={texts[1]}
+      />
+      <Button
+        onClick={incrementCount}
+        text={texts[2]}
+      />
+      <Button
+        onClick={incrementCount}
+        text={texts[3]}
+      />
     </div>
   );
 }
