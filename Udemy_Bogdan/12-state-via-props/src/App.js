@@ -4,6 +4,7 @@ import Button from './components/Button';
 import Counter from './components/Counter';
 
 function App() {
+  console.log('App rendered');
   const [count, setCount] = useState(0);
   const incrementCount = () => setCount(count + 1);
 
