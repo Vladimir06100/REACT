@@ -172,6 +172,8 @@
       <workItem from="1675116487652" duration="3624000" />
       <workItem from="1675151619128" duration="85000" />
       <workItem from="1675151719423" duration="711000" />
+      <workItem from="1675280719383" duration="644000" />
+      <workItem from="1675281403739" duration="477000" />
     </task>
     <task id="LOCAL-00001" summary="салют">
       <created>1674146605007</created>
@@ -292,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675119704295</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="react Udemy">
+      <created>1675280746251</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1675280746251</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
