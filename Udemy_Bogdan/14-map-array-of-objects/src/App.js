@@ -1,4 +1,5 @@
 import './App.css';
+import persons from './data/persons';
 
 function App() {
   return (
