@@ -18,10 +18,16 @@ function App() {
       <Button onClick={incrementCount} />
       <Button onClick={incrementCount} />
       <Button onClick={incrementCount} />
-      <div>
-        {/* const btnStyle = {background: 'lightgreen'} */}
-        <button style={{ backgroundColor: 'lightgreen' }} onClick={resetCount}>Reset</button>
-      </div>
+      {count > 0 && (
+        <div>
+          {/* const btnStyle = {background: 'lightgreen'} */}
+          <button
+            style={{ backgroundColor: 'lightgreen' }}
+            onClick={resetCount}>
+            Reset
+          </button>
+        </div>
+      )}
     </div>
   );
 }
