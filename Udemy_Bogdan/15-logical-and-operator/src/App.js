@@ -18,7 +18,8 @@ function App() {
       <Button onClick={incrementCount} />
       <Button onClick={incrementCount} />
       <Button onClick={incrementCount} />
-      {count > 0 && (
+      {/* count > 0 двойное отрицание */}
+      {!!count && (
         <div>
           {/* const btnStyle = {background: 'lightgreen'} */}
           <button
