@@ -1,9 +1,11 @@
 function Wrapper(props) {
   console.log(props);
-  return (
-    <div>
-      <h1>Hello from Wrapper</h1>
-    </div>
-  );
+  const style = {
+    backgroundColor: props.color,
+    width: '250px',
+    padding: '20px',
+    margin: '20px auto',
+  };
+  return <div style={style}>{props.children}</div>;
 }
 export default Wrapper;
