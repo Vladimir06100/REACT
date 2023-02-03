@@ -11,7 +11,7 @@ function App() {
   console.log('app rendered');
   console.log(todo);
 
-  return <div className="App"></div>;
+  return <div className="App">{todo && <h1>{todo.title}</h1>}</div>;
 }
 
 export default App;
