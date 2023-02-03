@@ -1,14 +1,17 @@
+import { useEffect, useState } from 'react';
 import './App.css';
 
 function App() {
-  fetch('https://jsonplaceholder.typicode.com/todos/1')
-    .then((response) => response.json())
-    .then((json) => console.log(json));
-  return (
-    <div className="App">
+  const [todo, setTodo] = useState(null);
+  useEffect(() => {
+    fetch('https://jsonplaceholder.typicode.com/todos/1')
+      .then((response) => response.json())
+      .then((json) => setTodo(json));
+  }, []);
+  console.log('app rendered');
+  console.log(todo);
 
-    </div>
-  );
+  return <div className="App"></div>;
 }
 
 export default App;

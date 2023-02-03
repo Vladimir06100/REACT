@@ -7,7 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6a5c00f-2735-4ca1-9731-babb990b3587" name="Changes" comment="react Udemy" />
+    <list default="true" id="e6a5c00f-2735-4ca1-9731-babb990b3587" name="Changes" comment="react Udemy">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy_Bogdan/20-useEffect/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy_Bogdan/20-useEffect/src/App.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -178,6 +181,7 @@
       <workItem from="1675291144509" duration="169000" />
       <workItem from="1675363323455" duration="891000" />
       <workItem from="1675368144240" duration="2811000" />
+      <workItem from="1675415062000" duration="418000" />
     </task>
     <task id="LOCAL-00001" summary="салют">
       <created>1674146605007</created>
