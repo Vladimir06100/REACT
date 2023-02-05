@@ -18,7 +18,7 @@ function Posts() {
   }
 
   return (
-    <div>
+    <>
       <h1>Posts</h1>
       <hr />
       {isLoading ? (
@@ -31,7 +31,7 @@ function Posts() {
           />
         ))
       )}
-    </div>
+    </>
   );
 }
 export default Posts;
