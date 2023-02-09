@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import TodoForm from './components/Todos/TodoForm';
 import TodoList from './components/Todos/TodoList';
+import TodoActions from './components/Todos/TodoActions';
 import './App.css';
 
 function App() {
@@ -38,10 +39,22 @@ function App() {
     );
   };
 
+  const resetTodosHandler = () => {
+    setTodos([]);
+  };
+
+  const deleteCompletedTodosHandler = () => {
+    setTodos(todos.filter((todo) => !todo.isCompleted));
+  };
+  
   return (
     <div className="App">
       <h1>Todo App</h1>
       <TodoForm addTodo={addTodoHandler} />
+      <TodoActions
+        resetTodo={resetTodosHandler}
+        deleteCompletedTodos={deleteCompletedTodosHandler}
+      />
       <TodoList
         todos={todos}
         deleteTodo={deleteTodoHandler}
