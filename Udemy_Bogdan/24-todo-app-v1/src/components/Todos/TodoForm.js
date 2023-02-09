@@ -1,5 +1,6 @@
 import { useState } from "react";
-// свойтсво аддтобо доступно из вызова свойства Тодо в ап.жс
+import styles from "./TodoForm.module.css";
+// свойство аддтобо доступно из вызова свойства Тодо в ап.жс
 function TodoForm({ addTodo }) {
   // для контроля строки старт пустая строка
 
@@ -13,16 +14,19 @@ function TodoForm({ addTodo }) {
     setText("");
   };
   return (
-    // при сабмите вызываем определенную функию
+    // при сабмите вызываем определенную функцию
     // создание контролируемого поля ввода
-    <form onSubmit={onSubmitHandler}>
-      <input
-        placeholder="Enter new todo"
-        value={text}
-        onChange={(e) => setText(e.target.value)}
-      />
-      <button type="submit">Submit</button>
-    </form>
+    <div className={styles.todoFormContainer}>
+      <form onSubmit={onSubmitHandler}>
+        {/*каждый раз когда меняется инпут меняется состояние */}
+        <input
+          placeholder="Enter new todo"
+          value={text}
+          onChange={(e) => setText(e.target.value)}
+        />
+        <button type="submit">Submit</button>
+      </form>
+    </div>
   );
 }
 

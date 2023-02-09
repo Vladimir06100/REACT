@@ -9,10 +9,11 @@
   <component name="ChangeListManager">
     <list default="true" id="e6a5c00f-2735-4ca1-9731-babb990b3587" name="Changes" comment="react Udemy">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Udemy_Bogdan/24-todo-app-v1/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy_Bogdan/24-todo-app-v1/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy_Bogdan/24-todo-app-v1/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy_Bogdan/24-todo-app-v1/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Udemy_Bogdan/24-todo-app-v1/src/components/Todos/Todo.js" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy_Bogdan/24-todo-app-v1/src/components/Todos/Todo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy_Bogdan/24-todo-app-v1/src/components/Todos/Todo.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy_Bogdan/24-todo-app-v1/src/components/Todos/Todo.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Udemy_Bogdan/24-todo-app-v1/src/components/Todos/TodoForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy_Bogdan/24-todo-app-v1/src/components/Todos/TodoForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Udemy_Bogdan/24-todo-app-v1/src/components/Todos/TodoList.js" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy_Bogdan/24-todo-app-v1/src/components/Todos/TodoList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy_Bogdan/24-todo-app-v1/src/components/Todos/TodoForm.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy_Bogdan/24-todo-app-v1/src/components/Todos/TodoForm.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +73,7 @@
     "nodejs_package_manager_path": "npm",
     "prettierjs.PrettierConfiguration.Package": "/usr/local/lib/node_modules/prettier",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.general",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "settings.editor.splitter.proportion": "0.24770643",
     "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
@@ -204,7 +205,7 @@
       <workItem from="1675883900155" duration="185000" />
       <workItem from="1675884107371" duration="98000" />
       <workItem from="1675884227392" duration="16000" />
-      <workItem from="1675884263297" duration="8805000" />
+      <workItem from="1675884263297" duration="10874000" />
     </task>
     <task id="LOCAL-00001" summary="салют">
       <created>1674146605007</created>
@@ -339,7 +340,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675931169118</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="react Udemy">
+      <created>1675950022840</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1675950022840</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
