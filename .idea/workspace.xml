@@ -8,12 +8,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6a5c00f-2735-4ca1-9731-babb990b3587" name="Changes" comment="react Udemy">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Udemy_Bogdan/24-todo-app-v1/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy_Bogdan/24-todo-app-v1/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Udemy_Bogdan/24-todo-app-v1/src/components/Todos/Todo.js" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy_Bogdan/24-todo-app-v1/src/components/Todos/Todo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Udemy_Bogdan/24-todo-app-v1/src/components/Todos/TodoForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy_Bogdan/24-todo-app-v1/src/components/Todos/TodoForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy_Bogdan/24-todo-app-v1/src/components/Todos/TodoList.js" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy_Bogdan/24-todo-app-v1/src/components/Todos/TodoList.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +204,7 @@
       <workItem from="1675883900155" duration="185000" />
       <workItem from="1675884107371" duration="98000" />
       <workItem from="1675884227392" duration="16000" />
-      <workItem from="1675884263297" duration="3874000" />
+      <workItem from="1675884263297" duration="8805000" />
     </task>
     <task id="LOCAL-00001" summary="салют">
       <created>1674146605007</created>
@@ -333,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675280746251</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="react Udemy">
+      <created>1675931169118</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1675931169118</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

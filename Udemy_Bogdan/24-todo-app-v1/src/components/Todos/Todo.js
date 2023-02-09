@@ -1,4 +1,5 @@
 function Todo({ todo }) {
-  return <h3>{todo}</h3>;
+  // передача динамически в компонент тодо
+  return <h2>{todo}</h2>;
 }
 export default Todo;
