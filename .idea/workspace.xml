@@ -8,30 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6a5c00f-2735-4ca1-9731-babb990b3587" name="Changes" comment="react Udemy">
-      <change afterPath="$PROJECT_DIR$/Udemy_Bogdan/25-todo-app-v2/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Udemy_Bogdan/25-todo-app-v2/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Udemy_Bogdan/25-todo-app-v2/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Udemy_Bogdan/25-todo-app-v2/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Udemy_Bogdan/25-todo-app-v2/public/android-chrome-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Udemy_Bogdan/25-todo-app-v2/public/android-chrome-512x512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Udemy_Bogdan/25-todo-app-v2/public/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Udemy_Bogdan/25-todo-app-v2/public/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Udemy_Bogdan/25-todo-app-v2/public/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Udemy_Bogdan/25-todo-app-v2/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Udemy_Bogdan/25-todo-app-v2/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Udemy_Bogdan/25-todo-app-v2/public/site.webmanifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Udemy_Bogdan/25-todo-app-v2/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Udemy_Bogdan/25-todo-app-v2/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Udemy_Bogdan/25-todo-app-v2/src/components/Todos/Todo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Udemy_Bogdan/25-todo-app-v2/src/components/Todos/Todo.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Udemy_Bogdan/25-todo-app-v2/src/components/Todos/TodoForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Udemy_Bogdan/25-todo-app-v2/src/components/Todos/TodoForm.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Udemy_Bogdan/25-todo-app-v2/src/components/Todos/TodoList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Udemy_Bogdan/25-todo-app-v2/src/components/Todos/TodoList.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Udemy_Bogdan/25-todo-app-v2/src/components/UI/Button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Udemy_Bogdan/25-todo-app-v2/src/components/UI/Button.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Udemy_Bogdan/25-todo-app-v2/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Udemy_Bogdan/25-todo-app-v2/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Udemy_Bogdan/24-todo-app-v1/src/components/Todos/TodoForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy_Bogdan/24-todo-app-v1/src/components/Todos/TodoForm.js" afterDir="false" />
     </list>
@@ -228,7 +205,7 @@
       <workItem from="1675884227392" duration="16000" />
       <workItem from="1675884263297" duration="10874000" />
       <workItem from="1675952210101" duration="3253000" />
-      <workItem from="1675955567299" duration="317000" />
+      <workItem from="1675955567299" duration="1563000" />
     </task>
     <task id="LOCAL-00001" summary="салют">
       <created>1674146605007</created>
@@ -377,7 +354,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675954827013</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="react Udemy">
+      <created>1675956004716</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1675956004716</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

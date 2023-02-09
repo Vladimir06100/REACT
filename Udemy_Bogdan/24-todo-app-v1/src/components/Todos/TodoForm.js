@@ -18,7 +18,7 @@ function TodoForm({ addTodo }) {
     // создание контролируемого поля ввода
     <div className={styles.todoFormContainer}>
       <form onSubmit={onSubmitHandler}>
-        {/*каждый раз когда меняется инпут меняется состояние */}
+        {/*каждый раз когда меняется инпут, меняется состояние */}
         <input
           placeholder="Enter new todo"
           value={text}
