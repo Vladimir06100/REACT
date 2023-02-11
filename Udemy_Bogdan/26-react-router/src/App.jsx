@@ -12,7 +12,7 @@ function App() {
       <div className="App">
         <Routes>
           <Route
-            path="/"
+            path="/main"
             element={<MainLayout />}>
             {/* по индексу указать индекс */}
             <Route
