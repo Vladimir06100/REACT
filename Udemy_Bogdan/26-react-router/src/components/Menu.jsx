@@ -1,13 +1,13 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Menu = () => {
   return (
     <nav>
       {/* / при абсолютной навигации */}
-      <Link to=".">Go to home</Link>
+      <NavLink to=".">Go to home</NavLink>
       {/* добавляем / если абсолютно */}
-      <Link to="about">About</Link>
-      <Link to="contacts">Contacts</Link>
+      <NavLink to="about">About</NavLink>
+      <NavLink to="contacts">Contacts</NavLink>
     </nav>
   );
 };
