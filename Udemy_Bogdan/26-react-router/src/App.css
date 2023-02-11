@@ -1,9 +1,17 @@
 .App {
   text-align: center;
 }
+.active {
+  color: lightyellow;
+  text-decoration: none;
+}
 a {
   color: lightblue;
   font-size: 35px;
+}
+nav {
+  background-color: darkslategray;
+  padding: 5px;
 }
 nav a {
   margin: 15px;
