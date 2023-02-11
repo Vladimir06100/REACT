@@ -5,6 +5,9 @@ a {
   color: lightblue;
   font-size: 35px;
 }
+nav a {
+  margin: 15px;
+}
 button {
   padding: 15px;
   font-size: 30px;
