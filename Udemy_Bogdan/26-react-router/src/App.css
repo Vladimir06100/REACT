@@ -1,7 +1,12 @@
 .App {
   text-align: center;
 }
-.active {
+/* встроенный класс для активной ссылки */
+/* .active {
+  color: lightyellow;
+  text-decoration: none;
+} */
+.activeLink {
   color: lightyellow;
   text-decoration: none;
 }
