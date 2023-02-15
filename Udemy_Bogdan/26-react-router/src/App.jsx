@@ -6,6 +6,7 @@ import About from './components/About';
 import MainLayout from './layouts/MainLayout';
 import './App.css';
 import Courses from './components/Courses';
+import SingleCourse from './components/SingleCourse';
 
 function App() {
   return (
@@ -16,9 +17,11 @@ function App() {
             path="/"
             element={<MainLayout />}>
             {/* по индексу указать индекс */}
+
             <Route
               index
               element={<Home />}
+              end
             />
             <Route
               path="about"
@@ -30,11 +33,12 @@ function App() {
             />
             <Route
               path="courses"
+              end
               element={<Courses />}
             />
             <Route
               path="courses/:slug"
-              element={<Courses />}
+              element={<SingleCourse />}
             />
             <Route
               path="*"
