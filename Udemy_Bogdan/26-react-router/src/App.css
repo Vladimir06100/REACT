@@ -34,3 +34,10 @@ h1 {
   font-size: 90px;
   margin-top: 20px;
 }
+.courseLink {
+  font-size: 25px;
+  text-decoration: none;
+}
+.courseLink:hover {
+  text-decoration: underline;
+}

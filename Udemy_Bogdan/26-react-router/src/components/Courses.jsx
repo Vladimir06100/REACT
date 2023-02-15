@@ -6,11 +6,13 @@ const Courses = () => {
     <>
       <h1>Courses</h1>
       {courses.map((course) => (
-        <Link
-          to={course.slug}
-          key={course.id}>
-          {course.title}
-        </Link>
+        <div key={course.id}>
+          <Link
+            to={course.slug}
+            className="courseLink">
+            {course.title}
+          </Link>
+        </div>
       ))}
     </>
   );
