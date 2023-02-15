@@ -5,6 +5,7 @@ import Contact from './components/Contact';
 import About from './components/About';
 import MainLayout from './layouts/MainLayout';
 import './App.css';
+import Courses from './components/Courses';
 
 function App() {
   return (
@@ -26,6 +27,14 @@ function App() {
             <Route
               path="contacts"
               element={<Contact />}
+            />
+            <Route
+              path="courses"
+              element={<Courses />}
+            />
+            <Route
+              path="courses/:slug"
+              element={<Courses />}
             />
             <Route
               path="*"

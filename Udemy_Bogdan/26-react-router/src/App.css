@@ -2,10 +2,10 @@
   text-align: center;
 }
 /* встроенный класс для активной ссылки */
-/* .active {
+.active {
   color: lightyellow;
   text-decoration: none;
-} */
+}
 .activeLink {
   color: lightyellow;
   text-decoration: none;

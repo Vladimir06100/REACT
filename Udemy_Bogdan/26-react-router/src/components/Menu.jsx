@@ -14,6 +14,7 @@ const Menu = () => {
         end>
         Home
       </NavLink>
+      <NavLink to="courses">Courses</NavLink>
       {/* добавляем / если абсолютно */}
       <NavLink
         to="about"
