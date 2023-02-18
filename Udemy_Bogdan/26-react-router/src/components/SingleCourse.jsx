@@ -7,12 +7,9 @@ const SingleCourse = () => {
   const params = useParams();
   const navigate = useNavigate();
   const course = courses.find((course) => course.slug === params.slug);
-  
-  
   // if (!course) {
   //   return <NotFound />;
   // } simply show NotFound
-
   useEffect(() => {
     if (!course) {
       navigate('..', { relative: 'path' });
