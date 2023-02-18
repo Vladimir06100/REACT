@@ -18,7 +18,7 @@ const Courses = () => {
   );
   return (
     <>
-      <h1>{sortKey ? `Courses sorted by ${sortKey}` : ``}</h1>
+      <h1>{sortKey ? `Courses sorted by ${sortKey}` : `Courses`}</h1>
       {sortedCourses.map((course) => (
         <div key={course.id}>
           <Link
