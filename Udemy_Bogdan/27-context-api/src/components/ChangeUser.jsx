@@ -4,7 +4,7 @@ function ChangeUser() {
   const { user, setUser } = useContext(UserContext);
   return (
     <button onClick={() => setUser(user === 'Bogdan' ? 'Alice' : 'Bogdan')}>
-      Change User
+      Change User 777
     </button>
   );
 }
