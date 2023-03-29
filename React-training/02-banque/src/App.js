@@ -10,7 +10,7 @@ function App() {
 			<CompteEnBanque
 				solde={2500}
 				monthlySpend={300}
-				titulaire="Vladimir"
+				titulaire="Vladimir Sinkevitch"
 				soldeHistory={[500, 1400, 2000000, 4000, 5000]}
 			/>
 		</div>
