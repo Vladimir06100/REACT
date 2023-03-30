@@ -9,7 +9,7 @@ function MovieView(props) {
   const [number1, setTom] = useState(0);
 
   /**
-   * Rajouter un like
+   * Rajouter un like au dossir
    */
   const click = () => { setTom(number1 + 1) }
 
