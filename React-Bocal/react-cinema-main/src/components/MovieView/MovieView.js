@@ -15,7 +15,7 @@ function MovieView(props) {
 
   return (
     <li>
-      <p>Titre du films...111  salut toi: {props.name}</p>
+      <p>Titre du films...11122333  salut toi: {props.name}</p>
       <p>Description du film : {props.description}</p>
       <img alt="img" src={props.image} />
       <button className="like" onClick={click}>Like</button>
